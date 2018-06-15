@@ -1,0 +1,201 @@
+device:
+ hostname: blc02
+ obervatory: Greenbank
+ IP: 10.11.0.153
+ type: COMPUTE
+cpu:
+ -number:  0
+ type:  Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+ cores:  8
+ hyperthreading: False
+ -number:  1
+ type:  Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+ cores:  8
+ hyperthreading: False
+ -number:  2
+ type:  Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+ cores:  8
+ hyperthreading: False
+ -number:  3
+ type:  Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+ cores:  8
+ hyperthreading: False
+ -number:  4
+ type:  Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+ cores:  8
+ hyperthreading: False
+ -number:  5
+ type:  Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+ cores:  8
+ hyperthreading: False
+ -number:  6
+ type:  Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+ cores:  8
+ hyperthreading: False
+ -number:  7
+ type:  Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+ cores:  8
+ hyperthreading: False
+ -number:  8
+ type:  Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+ cores:  8
+ hyperthreading: False
+ -number:  9
+ type:  Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+ cores:  8
+ hyperthreading: False
+ -number:  10
+ type:  Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+ cores:  8
+ hyperthreading: False
+ -number:  11
+ type:  Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+ cores:  8
+ hyperthreading: False
+ -number:  12
+ type:  Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+ cores:  8
+ hyperthreading: False
+ -number:  13
+ type:  Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+ cores:  8
+ hyperthreading: False
+ -number:  14
+ type:  Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+ cores:  8
+ hyperthreading: False
+ -number:  15
+ type:  Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+ cores:  8
+ hyperthreading: False
+memory:
+ -total: 396161920 kB
+gpu:
+ -type: TITAN Xp
+ serial: 0324517035065
+ memory: 12196 MiB
+ graphics clock: 1911 MHz
+ sm clock: 1911 MHz
+ memory clock: 5705 MHz
+
+disks:
+  10:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85M8K4EEF57D
+   -firmware: FP2A
+  11:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85A5K2T6F57D
+   -firmware: FP2A
+  12:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 859BK1OQF57D
+   -firmware: FP2A
+  13:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85H7K659F57D
+   -firmware: FP2A
+  14:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85K3KBZRF57D
+   -firmware: FP2A
+  15:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 8586KAWWF57D
+   -firmware: FP2A
+  16:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85MAK4QSF57D
+   -firmware: FP2A
+  17:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85J3KBW5F57D
+   -firmware: FP2A
+  18:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 8593KBGIF57D
+   -firmware: FP2A
+  19:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 859AK43TF57D
+   -firmware: FP2A
+  20:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85J2KD6DF57D
+   -firmware: FP2A
+  21:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85I3KBVRF57D
+   -firmware: FP2A
+  22:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85L8K48MF57D
+   -firmware: FP2A
+  23:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85A8K3TSF57D
+   -firmware: FP2A
+  24:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85J2KD4TF57D
+   -firmware: FP2A
+  25:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 8599K4YYF57D
+   -firmware: FP2A
+  26:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85MAK4QRF57D
+   -firmware: FP2A
+  27:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85J2KD6IF57D
+   -firmware: FP2A
+  28:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85KHK7UXF57D
+   -firmware: FP2A
+  29:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85A4K6J0F57D
+   -firmware: FP2A
+  30:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85J6KB9FF57D
+   -firmware: FP2A
+  31:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85A2KCHJF57D
+   -firmware: FP2A
+  32:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85KIK1FLF57D
+   -firmware: FP2A
+  33:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 757DK8A9F57D
+   -firmware: FP2A

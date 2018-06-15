@@ -1,0 +1,5 @@
+System,hostname,observatory,type
+blc00,blc00,Green Bank,COMPUTE
+blc01,blc01,Green Bank,COMPUTE
+blc02,blc02,Green Bank,COMPUTE
+bls0,bls0,Green Bank,STORAGE

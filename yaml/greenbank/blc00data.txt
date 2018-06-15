@@ -1,0 +1,233 @@
+device:
+ hostname: blc00
+ obervatory: Greenbank
+ IP: 10.11.0.153
+ type: COMPUTE
+cpu:
+ -number:  0
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  1
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  2
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  3
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  4
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  5
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  6
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  7
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  8
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  9
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  10
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  11
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  12
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  13
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  14
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  15
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  16
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  17
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  18
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  19
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  20
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  21
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  22
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+ -number:  23
+ type:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+ cores:  6
+ hyperthreading: False
+memory:
+ -total: 65865884 kB
+gpu:
+ -type: GeForce GTX 1080
+ serial: [Not Supported]
+ memory: 8119 MiB
+ graphics clock: 1911 MHz
+ sm clock: 1911 MHz
+ memory clock: 5005 MHz
+
+disks:
+  10:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85J1K5BPF57D
+   -firmware: FP2A
+  11:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85J5K320F57D
+   -firmware: FP2A
+  12:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85KGK6YQF57D
+   -firmware: FP2A
+  13:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85M8K4D0F57D
+   -firmware: FP2A
+  14:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85A4K6KTF57D
+   -firmware: FP2A
+  15:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85J2KD5SF57D
+   -firmware: FP2A
+  16:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85L8K48WF57D
+   -firmware: FP2A
+  17:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85I3KBVXF57D
+   -firmware: FP2A
+  18:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85KAK4IVF57D
+   -firmware: FP2A
+  19:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85J7K66EF57D
+   -firmware: FP2A
+  20:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 8581K4E4F57D
+   -firmware: FP2A
+  21:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85I3KBVTF57D
+   -firmware: FP2A
+  22:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85J2KD5VF57D
+   -firmware: FP2A
+  23:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85J3KBXWF57D
+   -firmware: FP2A
+  24:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85J2KD4RF57D
+   -firmware: FP2A
+  25:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85K2KD7LF57D
+   -firmware: FP2A
+  26:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85MAK4QCF57D
+   -firmware: FP2A
+  27:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85J3KBY7F57D
+   -firmware: FP2A
+  28:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85K3KBZ0F57D
+   -firmware: FP2A
+  29:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85I9K5BCF57D
+   -firmware: FP2A
+  30:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85J2KD6KF57D
+   -firmware: FP2A
+  31:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 7595K2GAF57D
+   -firmware: FP2A
+  32:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85J2KD5QF57D
+   -firmware: FP2A
+  33:
+   -device: TOSHIBA HDWE150
+   -capacity: 5,000,981,078,016 bytes [5.00 TB]
+   -serial: 85A9K4ZJF57D
+   -firmware: FP2A
